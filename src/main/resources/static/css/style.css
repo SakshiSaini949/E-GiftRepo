@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+.logo
+{
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 40%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.navbar{
+   display:flex;
+   cursor: pointer;
+   top:0;
+   position: sticky;
+   align-items: center;
+   justify-content: center;
+   
+}
+.nav-list
+{
+    width: 50%;
+    background-color: rgb(180, 70, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.nav-list li{
+    list-style: none;
+    padding: 15px;
+
+}
+.nav-list li a{
+     text-decoration: none;
+     color:white ;
+
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: black ;
+
+
+}
+.rightNav{
+    background-color:   rgb(180, 70, 90);
+    width:50%;
+    text-align: right;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 23px;
+
+}
+#Search
+{
+    padding: 8px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+    color: solid white;
+}
+.background
+{
+    background:rgba(202, 73, 73, 0.7) url('../image/gift6.jpg');
+    background-size: cover;
+    background-blend-mode:soft-light;
+}
+.box-main{
+    display:flex;
+    justify-content: centetr;
+    align-items: center;
+    color: cornsilk;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font-style: italic;
+}
+.smalltext{
+    text-align: center;
+    font-size: larger;
+    text-indent: 3%;
+    text-decoration:solid;
+ 
+}
+.bigtext{
+    text-align:center;
+    font-size: medium;
+    text-transform: inherit;
+    text-decoration: double;
+}
+.img#Gift4{
+    border: 3px solid whitesmoke;
+    border-radius: 20%;
+    width: 25%;
+    margin-right: 10%;
+	margin-left:2%;}
+.firstdivison img#cakeshop
+    {
+
+    border: 3px solid whitesmoke;
+    border-radius: 20%;
+    width: 25%;
+    margin-right: 5%;
+    }
+
+.firstdivison img#flowershop{
+    border: 3px solid whitesmoke;
+    border-radius: 20%;
+    width: 25%;
+    margin-left: 2%;
+    }
+.shopgift{
+    margin-left: 10%;
+    margin-right: 28%;
+    display: inline-block;
+    background-color:lightcoral;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: #351a1a;
+    text-align: center;
+    font-size: 80%;
+    padding: 1%;
+    width: 8%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: bold;
+}
+.cakebtn
+{
+    margin-right: 15%;
+    align-self: center;
+    display: inline-block;
+    background-color:lightcoral;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: #351a1a;
+    text-align: center;
+    font-size: 80%;
+    padding: 1%;
+    width: 8%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: bold;
+}
+.flower
+{
+    margin-left: 10%;
+    display: inline-block;
+    background-color:lightcoral;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: #351a1a;
+    text-align: center;
+    font-size: 80%;
+    padding: 1%;
+    width: 8%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: bold;
+}
+.firstSection
+{
+    height:210vh;
+}
+.gifttext
+{
+    font-style: italic;
+    color: solid floralwhite;
+    text-align: center;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: center;
+    background: none;
+    color: solid white;
+    cursor: pointer;
+    border:solid white;
+    border-radius: 10%;
+}
+     
+
+.wishPic img#newyear
+{
+    border: 4px solid dimgrey;
+    width: 400px;
+    margin-right: 20%;
+}
+.secRight
+{
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   color: solid gold;
+   margin: 10%;
+
+}
+.wishing
+{
+    font-style: italic;
+    text-indent: 10px;
+    align-items: left;
+    font-size: large;
+}
+.wishes
+{
+    font-size:x-large;
+    font-style: italic;
+    align-items: center;
+    color: gold;
+}
+.contact
+{
+    background-color:rgb(187, 119, 132);
+    height: 620px;
+}
+.text-center
+{
+    text-align: center;
+    padding: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+
+}
+.form
+{
+    max-width: 500px;
+    margin: 42px auto;
+
+}
+.form input
+{
+    width: 85%;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    margin: 8px 0px;
+    padding: 3px 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.btn-dark
+{
+    color:solid black;
+    border:2px solid gray;
+    border-radius: 5px;
+    width: 10%;
+    flex-wrap: wrap;
+    display: flex;
+}
+.form-input
+{
+    font-size: 15px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    padding: 3px 3px;
+    margin: 8px 0px;
+}
+
+.text-footer
+{
+    text-align: center;
+    padding: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
+.Login
+{
+    font-style: italic;
+    text-decoration-color: solid black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    padding-top: 20px;
+}
+.navbar1
+{
+        display:flex;
+        cursor: pointer;
+        top:0;
+        position: sticky;
+        align-items: center;
+        justify-content: center;
+        padding:5px 5px;
+        
+     
+}
+
+.log
+{
+    color:solid black;
+    border:2px solid gray;
+    border-radius: 5px;
+    width: 6%;
+    height:4%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    
+    padding:3px 3px;
+    margin: 1%;
+    margin-left:45%;
+}
+.reg
+{
+    color:solid black;
+    border:2px solid gray;
+    border-radius: 5px;
+    width: 6%;
+    height:4%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    
+    padding:3px 3px;
+    margin:1%;
+    margin-left:45%;
+   
+}
+
+.background1
+{
+    background:rgba(202, 73, 73, 0.7) url('../image/gift6.jpg');
+    background-blend-mode:soft-light;
+    background-size: cover;
+}
+.User input
+{
+    width: 30%;
+    font-size: 20px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    margin: 1%;
+    padding: 3px 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-content: center;
+    margin-left: 35%;
+}
+
+.User
+{
+    background:rgba(202, 73, 73, 0.7) url('../image/gift6.jpg');
+    background-blend-mode:soft-light;
+    background-size: cover;
+    height: 720px;
+    margin:4%;
+}
